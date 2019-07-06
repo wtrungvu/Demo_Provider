@@ -10,7 +10,7 @@ class LogInScreenModel with ChangeNotifier {
 
   increment() {
     count++;
-    print("count = " + count.toString());
+    print("LogInScreenModel - count = " + count.toString());
     notifyListeners(); //TODO: Nói cho màn hình ui cần phải đc cập nhật lại ui mới
   }
 }
